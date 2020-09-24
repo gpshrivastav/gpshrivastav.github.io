@@ -91,8 +91,8 @@ body {
 <body>
 
 <div class="sidenav">
-  <a href="public.html"><b> Home</b></a>
-  <a href="public.html"><b>Research</b></a>
+  <a href="index.html"><b> Home</b></a>
+  <a href="research.html"><b>Research</b></a>
   <a href="publications.html"><b>Publications</b></a>
   <a href="cv.html"><b>CV</b></a>
   <a href="contact.html"><b>Contact</b></a>

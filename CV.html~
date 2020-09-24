@@ -1,0 +1,401 @@
+<!---------- this are the publications page --------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gaurav P. Shrivastav</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the side navigation */
+.sidenav {
+  height: 40px;
+  width: 100%;
+/*  position: fixed; */ 
+  z-index: -1;
+  top:  0;
+  left: 0;
+  padding: 10px 10px 5px;
+  background-color: #111;
+  text-align: right;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */ 
+.sidenav a{
+  color: white;
+  padding: 50px 50px 10px;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  position:absolute;
+  top:130%;
+  width:70%;
+  left:0;
+  margin-left: 10%;
+}
+
+.container1 {
+    position:absolute;
+    top:20%;
+    left:0;
+    width: 60%;
+    background-color: none;
+    margin-left: 10%;
+    height: 30%;
+}
+.first1 {
+    width: 100%;
+    float: left;
+    height: 30%;
+    background-color: none;
+}
+
+.container2 {
+    position:absolute;
+    top: 25%;
+    left:50%;
+    width: 40%;
+    background-color: none;
+    height: 30%;
+}
+
+.first2 {
+	
+    width: 400px;
+    float: left;
+    height: 300px;
+    background-color: none;
+}
+.second2{
+    position: absolute;
+    top:  210px;
+    left: 200px;
+    width: 250px;
+    float: left;
+    height: 50px;
+    background-color:none;
+}
+
+.container3 {
+    position:absolute;
+    top:60%;
+    left:0;
+    width: 65%;
+    background-color: none;
+    margin-left: 10%;
+    height: 30%;
+}
+.first3 {
+    width: 100%;
+    float: left;
+    height: 30%;
+    background-color: none;
+}
+.container4 {
+    position:absolute;
+    top: 71.7%;
+    left:80%;
+    width: 65%;
+    background-color: none;
+    height: 30%;
+}
+
+.first4 {
+	
+    width: 100%;
+    float: left;
+    height: 30%;
+    background-color: none;
+}
+
+
+.container5 {
+    position:absolute;
+    top:82%;
+    left:0;
+    width: 100%;
+    background-color: none;
+    margin-left: 10%;
+    height: 30%;
+}
+.first5 {
+    width: 500px;
+    float: left;
+    height: 300px;
+    background-color: none;
+    padding-top:50px;
+}
+
+
+.container6 {
+    position:absolute;
+    top:110%;
+    left:0;
+    width: 70%;
+    background-color: none;
+    margin-left: 10%;
+    height: 30%;
+}
+.first6 {
+    width: 500px;
+    float: left;
+    height: 300px;
+    background-color: none;
+    padding-top:50px;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: Left;
+}
+
+h2 {
+  font-weight: bold;
+  color:none;
+  font-size: 20px;
+  text-align: left;
+}
+
+.header {
+  float:left; 
+  background: #1abc9c;
+  color: white;
+  height: 70px;
+  width: 100%;
+  padding-bottom: 50px;
+  text-align: center;
+}
+h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+/* links in the content */
+.content a{
+  text-decoration: none;
+  color: gray;
+}
+
+/* spacing after paragraphs */
+.content p{
+ margin:0 !important;
+}
+
+/*title of papers in italic*/
+.content p.title {
+}
+/*title of papers in italic*/
+.content p.authors {
+  font-style: normal;
+}
+
+/*spacings after list items */
+.content li{
+   margin-bottom: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="public.html"><b> Home</b></a>
+  <a href="public.html"><b>Research</b></a>
+  <a href="publications.html"><b>Publications</b></a>
+  <a href="cv.html"><b>CV</b></a>
+  <a href="contact.html"><b>Contact</b></a>
+</div>
+
+<div class="header">
+      <h3> Curriculam Vitae </h3>
+</div>
+
+<div class="container1">
+   <div class="first1">
+	   <h2>Experience </h2>
+	   <ul>
+	     <li><p>
+		 <b> Postdoctoral Fellow </b>              Mar, 2019 - Present <br>
+	        Institut f&uuml;r Theoretische Physik <br>
+	        Technische Universit&auml;t Wien, Austria. <br> 
+	     </p></li>
+	     <li><p>
+		<b> Postdoctoral Fellow </b>               Jan, 2017 - Feb, 2019 <br>
+	        Institut f&uuml;r Theoretische Physik <br>
+	        Technische Universit&auml;t Berlin, Germany. <br> 
+	     </p></li>
+	     <li><p>
+		<b> Postdoctoral Fellow </b>               Jan, 2017 - Feb, 2019 <br>
+	        Institut f&uuml;r Theoretische Physik II- Soft Matter<br>
+	        Heinrich-Heine Universit&auml;t D&uuml;sseldorf, Germany. <br> 
+	     </p></li>
+	   </ul>
+    </div>
+</div>
+<div class="container2">
+    <div class="first2">
+       <picture> 
+            <source media="(min-width:150px)" srcset="pics/gps3.jpg">
+	    <img src="pics/gps3.jpg" alt="cvphoto" style="width:212px;" align="right">
+       </picture>
+    </div>
+    <div class="second2">
+     <p>Indian | DOB: Feb. 25, 1983</p>
+    </div>	    
+</div>
+
+
+
+
+<div class="container3">
+   <div class="first3">
+      <h2>Education</h2>
+      <ul>
+	 <li><p>
+	    <b>Ph.D. (Theoretical Physics)</b>  2006 - 2103.<br>
+	       Jawaharlal Nehru University, New Delhi, India. <br>
+	    <p></p>
+	    <b>Thesis Title:</b> Aggregates and interfaces in non-equilibrium systems.<br>
+	    <b>Thesis Supervisors:</b><br>
+	       Prof. Dr. Sanjay Puri<br>
+	       School of Physical Sciences<br> 
+               Jawaharlal Nehru University.
+	    <div class="container4">
+	      <div class="first4">
+                  Prof. Dr. Varsha Banerjee<br>
+		  Department of Physics<br>
+		  Indian Institute of Technology Delhi.
+              </div>
+	    </div>
+         </p></li>
+      </ul>	      
+   </div>	   
+</div>
+<div class="container5">
+         <div class="first5">
+           <ul>	
+	      <li><p>	   
+	         <b>M.Sc. (Physics)  </b> 2003 - 2005.<br>
+	            Dr. Ram Manohar Lohia Avadh University, Faizabad, India.
+               <p></li>
+	      <p></p>
+	      <li><p>	   
+	         <b>B.Sc. (Physics, Chemistry, Mathematics)  </b> 2000 - 2003.<br>
+		 Ewing Christian College, <br>
+		 University of Allahabad, Allahabad, India.
+               <p></li>
+	   </ul> 
+	 </div> 
+</div>
+<div class="container6">
+   <h2>Professional Activities</h2>
+     <ul>
+	<li><p>
+		<b>Paper Reviews:</b>Soft Matter, The Journal of Chemical Physics, The Journal of Physical Chemistry B, Journal of Rheology, European Physical Journal B, Materials, Crystals, Symmetry, Phil. Magazine Letters and Applied Physics A.<br>
+        </p></li>
+         <p></p>
+        <li><p>
+            <b>Member</b> Topic editor board Crystals (MDPI). 
+	</p></li>  
+     </ul>	     
+</div>
+
+
+
+<div class="content">
+  <h2>Presentations</h2>
+  <ol reversed>
+	
+       <li> <p class="title"><b> Ashoka University, India:</b> Feb. 10, 2020. </p>
+	    <p class="authors"><b>Talk:</b> Mixtures of liquid crystals and magnetic nanoparticles: hybrid materials with tunable flow properties.</p>
+
+       <li> <p class="title"><b> Shiv Nadar University, India:</b> Aug. 27, 2019. </p>
+	    <p class="authors"><b>Talk:</b> Soft hybrid materials with tunable flow properties: mixtures of liquid crystals and magnetic nanoparticles: .</p>
+
+       <li> <p class="title"><b> IIT Indore, India:</b> Aug. 23, 2019. </p>
+	    <p class="authors"><b>Talk:</b> Rheology of mixtures of liquid crystals and magnetic nanoparticles</p>
+       
+       <li> <p class="title"><b> IMSc Chennai, India:</b> Aug. 07, 2019. </p>
+	    <p class="authors"><b>Talk:</b> Steady state rheology of mixtures of liquid crystals and magnetic nanoparticles.</p>
+
+       <li> <p class="title"><b> TU Vienna, Austria:</b> Jan. 14, 2019. </p>
+	    <p class="authors"><b>Talk:</b> Rheology of complex fluids: glasses and mixtures of liquid crystals and magnetic nanoparticles.</p>
+
+       <li> <p class="title"><b> Benediktbeuern, Germany:</b> 6th Colloquium of DFG Priority Program 1681, Field controlled particle matrix interactions: synthesis, multiscale modelling and application of magnetic hybrid materials, 26-28 September 2018. </p>
+	    <p class="authors"><b>Talk:</b> Mixtures of magnetic particles and liquid crystals: impact of magnetic particle shape and shear.</p>
+
+       <li> <p class="title"><b> Berlin, Germany:</b> DPG-Spring meeting, 11-16 March 2018.</p>
+	    <p class="authors"><b>Talk:</b> Dynamics and rheology of ferronematics. </p>
+
+       <li> <p class="title"><b> Berlin, Germany:</b> DPG-Spring meeting, 11-16 March 2018.</p>
+	    <p class="authors"><b>Talk:</b> Dynamics and rheology of ferronematics. </p>
+
+       <li> <p class="title"><b> Benediktbeuern, Germany:</b> 5th Colloquium of DFG Priority Program 1681, Field controlled particle matrix interactions: synthesis, multiscale modelling and application of magnetic hybrid materials, 27-29 September 2017.</p>
+	    <p class="authors"><b>Talk:</b> Mixtures of magnetic particles and liquid crystals under shear.</p>
+	    
+       <li> <p class="title"><b>  Regensburg, Germany:</b>  DPG-Spring meeting, 6-11 March 2016.</p>
+	    <p class="authors"><b>Talk:</b> Residual stresses in glass forming systems.</p>
+
+       <li> <p class="title"><b> IISER Pune, India:</b> CompFlu-2016, 2-4 January 2016.</p>
+	    <p class="authors"><b>Talk:</b> Formation and growth of shear bands in glasses.</p>
+
+       <li> <p class="title"><b> Jena, Germany:</b> Minisymposium Starting Ramp Program and Summersymposium LS Glasschemie II, 16-17 June 2015.</p>
+	    <p class="authors"><b>Talk:</b> Directed Percolation: A route to the formation of shear bands.</p>
+
+       <li> <p class="title"><b> Berlin, Germany:</b> DPG-Spring meeting, 15-20 March 2015.</p>
+	    <p class="authors"><b>Talk:</b> Shear bands in a model glass former.</p>
+
+       <li> <p class="title"><b> Weimar, Germany:</b> 6th International Workshop on Flow and Fracture of Advanced Glasses, 7-10 October 2014.</p>
+	    <p class="authors"><b>Talk:</b> Transient dynamics of simple glass formers under shear.</p>
+
+       <li> <p class="title"><b>Benediktbeuern, Germany:</b> 5th Colloquium of DFG Priority Program 1681, Field controlled particle matrix interactions: synthesis, multiscale modelling and application of magnetic hybrid materials, 27-29 September 2017.</p>
+	    <p class="authors"><b>Poster:</b> Mixtures of magnetic particles and liquid crystals under shear.</p>
+
+       <li> <p class="title"><b>Lyon, France:</b> Rheology of Gel Networks, 21-23 June 2017.</p>
+	    <p class="authors"><b>Poster:</b> Distribution of residual stresses in glass forming systems.</p>
+
+       <li> <p class="title"><b> Primo&#353;ten, Croatia:</b> 3rd International workshop on Nonlinear Response in Complex Matter, 26-30 Sep. 2016.</p>
+	    <p class="authors"><b>Poster:</b> Identification of an underlying directed percolation transition during the yielding of glass under shear.</p>
+	    
+       <li> <p class="title"><b> Montpellier, France:</b> International workshop on Dynamics in Viscous Liquids, 4-7 May 2015.</p>
+	    <p class="authors"><b>Poster:</b> On the origin of shear bands in a model glass former.</p>
+
+       <li> <p class="title"><b> JNCASR Bangalore, India:</b> Dynamics of Phase Transformations, 28-30 November 2011.</p>
+	    <p class="authors"><b>Poster:</b> Novelties in the ground state morphologies of random field Ising model.</p>
+
+       <li> <p class="title"><b> JNU New Delhi, India:</b> SPS&064;25 Looking Forward, 10-11 March 2011.</p>
+	    <p class="authors"><b>Poster:</b> Mass transport models with fragmentation, adsorption and desorption. <b>(Selected for the best poster award)</b></p>
+
+       <li> <p class="title"><b> SINP Kolkata, India:</b> STATPHYS Kolkata VII 26-30 Nov. 2010.</p>
+	    <p class="authors"><b>Poster:</b> Mass-transport models with multiple-chipping processes.</p>
+
+       <li> <p class="title"><b> JNU New Delhi, India:</b> SPS March Meeting on Soft Matter Physics, 4-5 March 2010.</p>
+	       <p class="authors"><b>Poster:</b> Conserved mass models with mass dependent fragmentation and aggregation. <b>(Selected for the best poster award).</b></p>
+  </ol>
+</div>
+
+

@@ -16,13 +16,13 @@ body {
 }
 /* Style the side navigation */
 .sidenav {
-  height: 40px;
+  height: 2%;
   width: 100%;
 /*  position: fixed; */ 
   z-index: -1;
   top:  0;
   left: 0;
-  padding: 10px 10px 5px;
+  padding: 1% 1%;
   background-color: #111;
   text-align: right;
   overflow-x: hidden;
@@ -32,7 +32,7 @@ body {
 /* Side navigation links */ 
 .sidenav a{
   color: white;
-  padding: 50px 50px 10px;
+  padding: 3% 3% 1%;
   text-decoration: none;
   display: inline;
   text-align: center;
@@ -46,8 +46,8 @@ body {
 
 /* Style the content */
 .content {
-  margin-left: 10%;
-  margin-top:10%;
+  margin-left: 5%;
+  padding-top:5%;
 }
 
 /* links in the content */
@@ -79,12 +79,31 @@ body {
   float:left; 
   background: #1abc9c;
   color: white;
-  height: 70px;
+  height: 3%;
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 0.5%;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 150%;
   text-align: center;
 }
 
+h2 {
+  font-weight: bold;
+  color:none;
+  font-size: 120%;
+  text-align: left;
+}
+ 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 
 </style>
 </head>
@@ -94,7 +113,7 @@ body {
   <a href="index.html"><b> Home</b></a>
   <a href="research.html"><b>Research</b></a>
   <a href="publications.html"><b>Publications</b></a>
-  <a href="cv.html"><b>CV</b></a>
+  <a href="CV.html"><b>CV</b></a>
   <a href="contact.html"><b>Contact</b></a>
 </div>
 <div class="header">

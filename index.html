@@ -1,4 +1,4 @@
-<!----- this is a file for the webpage--->
+<!----- this is a file for the webpage ---->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,111 +17,30 @@ body {
 
 /* Style the side navigation */
 .sidenav {
-  height: 40px;
+  height: 2%;
   width: 100%;
 /*  position: fixed; */ 
   z-index: -1;
   top:  0;
   left: 0;
-  padding: 10px 10px 5px;
+  padding: 1% 1%;
   background-color: #111;
   text-align: right;
   overflow-x: hidden;
 }
-
-
 /* Side navigation links */
 .sidenav a {
   color: white;
-  padding: 50px 50px 10px;
+  padding: 3% 3% 1%;
   text-decoration: none;
   display: inline;
   text-align: center;
 }
-
 /* Change color on hover */
 .sidenav a:hover {
   background-color: #ddd;
   color: black;
 }
-
-.container1 {
-    position:absolute;
-    top:0;
-    left:0;
-    width: 50%;
-    background-color: none;
-    margin-left: 30%;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    height: 30%;
-}
-.first1 {
-    width: 100%;
-    float: left;
-    height: 30%;
-    background-color: none;
-    padding-top:10%;
-}
-
-.container1 a{
-  text-decoration: none;
-  color: gray;
-}
-
-
-.container2 {
-    position:absolute;
-    top: 10%;
-    left:30%;
-    width: 50%;
-    background-color: none;
-    margin-top: 2%;
-    height: 30%;
-}
-
-.first2 {
-	
-    width: 100%;
-    float: left;
-    height: 30%;
-    background-color: none;
-}
-
-.container3 {
-    position:absolute;
-    top:40%;
-    left:10%;
-    width: 60%;
-    background-color: none;
-    height: 30%;
-}
-.first3 {
-    width: 100%;
-    float: left;
-    height: 30%;
-    background-color: none;
-    padding-top: 2%;
-}
-
-.container4 {
-    position:absolute;
-    bottom:0;
-    right:2%;
-    width: 40%;
-    background-color: none;
-    height: 30%;
-}
-.first4 {
-    width: 100%;
-    float: left;
-    height: 30%;
-    padding-top: 5%;
-    background-color: none;
-}
-
-
-
 h1 {
   color: black;
   font-weight: bold;
@@ -135,12 +54,52 @@ h2 {
   font-size: 20px;
   text-align: left;
 }
-
-/* Style the content */
-.content {
-  margin-left: 200px;
-  padding-left: 20px;
+a{
+    text-decoration: none;
+    color: gray;
 }
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {
+   width: 30%;
+   margin-left:20%;
+   margin-top:3%;
+}
+.col-2 {
+   width: 40%;
+   padding-left: 1%;
+   padding-right:2%;
+}
+.col-3 {
+   width: 40%;
+   margin-left: 10%;
+   padding-right:1%;
+}
+.col-4 {
+   width: 40%;
+   margin-left: 1%;
+   padding-right:1%;
+   padding-top:5%;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+    margin-left: 2%;
+    padding:0;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -153,12 +112,8 @@ h2 {
   <a href="contant.html"><b>Contact</b></a>
 </div>
 
-<!--<div class="content">
-  <h2>Gaurav P. Shrivastav</h2>
-  <p>A full-height, fixed sidenav and content.</p>
-</div>-->
-<div class="container1">
-   <div class="first1">
+<div class="row">
+    <div class="col-1">
 	   <h1> Gaurav Prakash Shrivastav </h1>
 	   <h2>Postdoctoral Fellow </h2>
 	   <p>Institut f&uuml;r Theoretische Physik <br>
@@ -169,32 +124,24 @@ h2 {
            <a target="_blank" href="https://orcid.org/0000-0001-9152-8887">ORCID</a> 
 	   </p>
     </div>
-</div>
-<div class="container2">
-    <div class="first2">
+    <div class="col-2">
        <picture> 
-            <source media="(min-width:150px)" srcset="pics/gpscover.jpg">
-	    <img src="pics/gpscover.jpg" alt="homephoto" style="width:212px;" align="right">
+            <source media="(min-width:1%)" srcset="pics/gpscover.jpg">
+	    <img src="pics/gpscover.jpg" alt="homephoto" style="width:50%;" align="left">
        </picture>
-    </div>	    
-</div>
+    </div>
 
-<div class="container3">
-     <div class="first3">
+   <div class="col-3">
         <picture> 
-            <source media="(min-width:150px)" srcset="pics/rs.jpg">
-	    <img src="pics/rs.jpg" alt="resint" style="width:600px;" align="left">
+            <source media="(min-width:1%)" srcset="pics/rs.jpg">
+	    <img src="pics/rs.jpg" alt="resint" style="width:100%;" align="left">
         </picture> 
-<!--          <embed src="pics/rs.pdf" width="800px" height="2100px" /> -->
-
      </div>
-</div>
-<div class="container4">
-     <div class="firs4">
+     <div class="col-4">
 	     <h2> Research Interests:</h2>
             <ul>
 	     
-		    <li><b>Rehology of complex fluids</b> (Liquid crystals, Ferrofluids, Mixtures of liquid crystals (LC) and magnetic nanoparticles (MNP)): self-assembly, dynamics, rheology.</li>
+              <li><b>Rehology of complex fluids</b> (Liquid crystals, Ferrofluids, Mixtures of liquid crystals (LC) and magnetic nanoparticles (MNP)): self-assembly, dynamics, rheology.</li>
 		<p></p>
 	      <li><b>Mechanical response of disordered solids</b> (Amorphous Solids, Defect-rich Crystals): yielding, shearbanding, elastic moduli, residual stresses. </li>
                 <p></p>
@@ -202,11 +149,7 @@ h2 {
 
             </ul>
      </div>	     
-</div>
-
-
-
-
+</div>  
 </body>
 </html>
 

@@ -102,6 +102,8 @@ h2 {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+    margin-left:2%;
+    padding:0;
   }
 }
 
@@ -122,53 +124,53 @@ h2 {
 
 <div class="content">
   <ol reversed>
-       <li> <p class="title"> Flow heterogeneities in supercooled liquids and glasses under shear. </p>
-            <p class="authors">M Golkia, GP Shrivastav, P Chaudhuri, J Horbach</p>
-       <a target="_blank" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.023002">Phys. Rev. E <b>102 </b> (2), 023002 (2020).</a></li>
+	  <li> <p class="title"> <a target="_blank" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.023002">Flow heterogeneities in supercooled liquids and glasses under shear.</a></p>
+               <p class="authors">M Golkia, GP Shrivastav, P Chaudhuri, J Horbach</p>
+                Phys. Rev. E <b>102 </b> (2), 023002 (2020).</li>
 
-       <li> <p class="title"> Shear Bands in Monolithic Metallic Glasses: Experiment, Theory, and Modeling. </p>
-            <p class="authors">R Hubek, S Hilke, FA Davani, M Golkia, GP Shrivastav, SV Divinski, H R&#246;sner, J Horbach, G Wilde</p>
-       <a target="_blank" href="https://www.frontiersin.org/articles/10.3389/fmats.2020.00144/full">Front. Mater. <b>7 </b>, 144 (2020).</a></li>
+	  <li> <p class="title"> <a target="_blank" href="https://www.frontiersin.org/articles/10.3389/fmats.2020.00144/full">Shear Bands in Monolithic Metallic Glasses: Experiment, Theory, and Modeling.</a> </p>
+               <p class="authors">R Hubek, S Hilke, FA Davani, M Golkia, GP Shrivastav, SV Divinski, H R&#246;sner, J Horbach, G Wilde</p>
+                Front. Mater. <b>7 </b>, 144 (2020).</li>
 
-       <li> <p class="title"> Non-monotonic response of a sheared magnetic liquid crystal to a continuously increasing external field. </p>
+	  <li> <p class="title"> <a target="_blank" href="https://aip.scitation.org/doi/full/10.1063/1.5126398">Non-monotonic response of a sheared magnetic liquid crystal to a continuously increasing external field.</a></p>
 	       <p class="authors"> N H Siboni, GP Shrivastav, SHL Klapp </p>
-       <a target="_blank" href="https://aip.scitation.org/doi/full/10.1063/1.5126398"> J. Chem. Phys. <b>152</b> (2), 024505 (2020).</a></li>
+                J. Chem. Phys. <b>152</b> (2), 024505 (2020).</li>
        
-       <li> <p class="title"> On the stress overshoot in cluster crystals under shear. </p>
-            <p class="authors">GP Shrivastav, G Kahl</p>
-       <a target="_blank" href="http://icmp.lviv.ua/journal/zbirnyk.102/23801/abstract.html">Condens. Matter Phys. <b>23 </b> (2), 23801 (2020).</a></li>
+	  <li> <p class="title"><a target="_blank" href="http://icmp.lviv.ua/journal/zbirnyk.102/23801/abstract.html">On the stress overshoot in cluster crystals under shear.</a></p>
+               <p class="authors">GP Shrivastav, G Kahl</p>
+                Condens. Matter Phys. <b>23 </b> (2), 23801 (2020).</li>
 
-       <li> <p class="title"> Steady-state rheology and structure of soft hybrid mixtures of liquid crystals and magnetic nanoparticles </p>
+	  <li> <p class="title"><a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2020/sm/c9sm02080b">Steady-state rheology and structure of soft hybrid mixtures of liquid crystals and magnetic nanoparticles</a></p>
 	       <p class="authors"> GP Shrivastav, NH Siboni, SHL Klapp </p>
-       <a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2020/sm/c9sm02080b"> Soft Matter <b>16</b> (10), 2516 (2020).</a></li>
+                Soft Matter <b>16</b> (10), 2516 (2020).</li>
 
-       <li> <p class="title"> Anomalous transport of magnetic colloids in a liquid crystal-magnetic colloid mixture </p>
+	  <li> <p class="title"><a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2019/sm/c8sm02090f"> Anomalous transport of magnetic colloids in a liquid crystal-magnetic colloid mixture</a></p>
 	       <p class="authors"> GP Shrivastav, SHL Klapp </p>
-       <a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2019/sm/c8sm02090f"> Soft Matter <b>15</b> (5), 973 (2019).</a></li>
+                Soft Matter <b>15</b> (5), 973 (2019).</li>
 
-       <li> <p class="title"> Yielding of glass under shear: A directed percolation transition precedes shear-band formation </p>
+	  <li> <p class="title"><a target="_blank" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.94.042605"> Yielding of glass under shear: A directed percolation transition precedes shear-band formation.</a></p>
 	       <p class="authors"> GP Shrivastav, P Chaudhuri, J Horbach </p>
-       <a target="_blank" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.94.042605"> Soft Matter <b>94</b> (4), 042605 (2016).</a></li>
+                Soft Matter <b>94</b> (4), 042605 (2016).</li>
 
-       <li> <p class="title"> Shear band relaxation in a deformed bulk metallic glass </p>
+	  <li> <p class="title"><a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S135964541630132X">Shear band relaxation in a deformed bulk metallic glass.</a></p>
 	       <p class="authors"> I Binkowski, GP Shrivastav, J Horbach, SV Divinski, G Wilde </p>
-       <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S135964541630132X"> Acta Mater. <b>109</b>, 340 (2016).</a></li>
+                Acta Mater. <b>109</b>, 340 (2016).</li>
 
-       <li> <p class="title"> Heterogeneous dynamics during yielding of glasses: Effect of aging </p>
+	  <li> <p class="title"><a target="_blank" href="https://sor.scitation.org/doi/abs/10.1122/1.4959967">Heterogeneous dynamics during yielding of glasses: Effect of aging.</a></p>
 	       <p class="authors"> GP Shrivastav, P Chaudhuri, J Horbach </p>
-       <a target="_blank" href="https://sor.scitation.org/doi/abs/10.1122/1.4959967"> J. Rheol. <b>60</b> (5), 835 (2016).</a></li>
+                J. Rheol. <b>60</b> (5), 835 (2016).</li>
 
-       <li> <p class="title"> Non-Porod behavior in systems with rough morphologies </p>
+	  <li> <p class="title"><a target="_blank" href="https://sor.scitation.org/doi/abs/10.1122/1.4959967">Non-Porod behavior in systems with rough morphologies.</a></p>
 	       <p class="authors"> GP Shrivastav, V Banerjee, S Puri </p>
-       <a target="_blank" href="https://sor.scitation.org/doi/abs/10.1122/1.4959967"> Eur. Phys. J E <b>37</b> (10), 98 (2014).</a></li>
+                Eur. Phys. J E <b>37</b> (10), 98 (2014).</a></li>
 
-       <li> <p class="title"> Ground-state morphologies in the random-field Ising model: Scaling properties and non-Porod behavior </p>
+	  <li> <p class="title"><a target="_blank" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.032140"> Ground-state morphologies in the random-field Ising model: Scaling properties and non-Porod behavior.</a></p>
 	       <p class="authors"> GP Shrivastav, M Kumar, V Banerjee, S Puri </p>
-       <a target="_blank" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.032140"> Phys. Rev. E <b>90</b> (3), 032140 (2014).</a></li>
+                Phys. Rev. E <b>90</b> (3), 032140 (2014).</li>
 
-       <li> <p class="title"> Fractal domain morphologies: signatures and implications </p>
+	  <li> <p class="title"><a target="_blank" href="https://link.springer.com/article/10.1007/s12648-014-0486-6"> Fractal domain morphologies: signatures and implications.</a></p>
 	       <p class="authors"> V Banerjee, S Puri, GP Shrivastav </p>
-	       <a target="_blank" href="https://link.springer.com/article/10.1007/s12648-014-0486-6"> Ind. J. Phys. <b>88</b> (9), 1005 (2014).</a></li>
+	        Ind. J. Phys. <b>88</b> (9), 1005 (2014).</li>
 
        <li> <p class="title"> Scattering properties of paramagnetic ground states in the three-dimensional random-field Ising model </p>
 	       <p class="authors"> GP Shrivastav, S Krishnamoorthy, V Banerjee, S Puri </p>

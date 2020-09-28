@@ -54,6 +54,10 @@ h2 {
   font-size: 20px;
   text-align: left;
 }
+a{
+    text-decoration: none;
+    color: gray;
+}
 
 .row:after {
   content: "";

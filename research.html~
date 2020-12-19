@@ -119,6 +119,10 @@ hr{
     margin-left:2%;
     padding:0;	    
   }
+  video{
+    width:85%;
+    height:auto;
+  }
 }
 </style>
 </head>

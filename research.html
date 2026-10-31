@@ -1,204 +1,65 @@
-<!---------- this are the publications page --------------->
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<title>Gaurav P. Shrivastav</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/* Style the side navigation */
-.sidenav {
-  height: 2%;
-  width: 100%;
-  z-index: -1;
-  top:  0;
-  left: 0;
-  padding: 1% 1%;
-  background-color: #111;
-  text-align: right;
-  overflow-x: hidden;
-}
-
-/* Side navigation links */ 
-.sidenav a{
-  color: white;
-  padding: 1% 1% 1%;
-  text-decoration: none;
-  display: inline;
-  text-align: center;
-}
-
-/* Change color on hover */
-.sidenav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header {
-  float:left; 
-  background: #1abc9c;
-  color: white;
-  height: 3%;
-  width: 100%;
-  padding-bottom: 0.5%;
-  text-align: center;
-}
-
-
-h1 {
-  color: white;
-  font-weight: bold;
-  font-size: 150%;
-  text-align: center;
-}
-
-h2 {
-  font-weight: bold;
-  color:none;
-  font-size: 120%;
-  text-align: left;
-}
-
-.row:after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
-
-/* for desktop */
-.col-1 {
-   width: 40%;
-   margin-left:5%;
-}
-.col-2 {
-   width: 25%;
-   padding-left: 1%;
-   padding-right:2%;
-}
-.col-3 {
-   width: 25%;
-   padding-left: 2%;
-   padding-right:1%;
-}
-
-
-a{
-    text-decoration: none;
-    color: gray;
-}
-
-video{
-    width:115%;
-    height:auto;
-}
-p{
-    font-size: 100%;
-  
-}
-hr{
-    width:100%;
-}
-
-@media only screen and (max-width: 1024px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-    margin-left:2%;
-    padding:0;	    
-  }
-  video{
-    width:85%;
-    height:auto;
-  }
-}
-</style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Research | Gaurav P. Shrivastav</title>
+<meta content="Research in climate and Earth-system dynamics, reduced-complexity modelling, regional extremes, and the statistical physics of soft matter." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;family=Public+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="assets/style.css" rel="stylesheet"/>
 </head>
 <body>
-
-<div class="sidenav">
-  <a href="index.html"><b> Home</b></a>
-  <a href="research.html"><b>Research</b></a>
-  <a href="publications.html"><b>Publications</b></a>
-  <a href="CV.html"><b>CV</b></a>
-  <a href="contact.html"><b>Contact</b></a>
+<header class="site-header">
+<div class="wrap">
+<a class="site-name" href="index.html">Gaurav P. Shrivastav</a>
+<nav aria-label="Main" class="site-nav">
+<a href="index.html">Home</a>
+<a aria-current="page" href="research.html">Research</a>
+<a href="publications.html">Publications</a>
+<a href="CV.html">CV</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<main>
+<div class="wrap research-page-wrap"><header class="page-title"><h1>Research</h1><p class="lede">Our research explores how complex systems respond to external forcing, combining equilibrium and non-equilibrium statistical physics with computational modelling across climate and soft matter.</p></header><h2 class="research-group-title">Climate &amp; Earth Systems</h2><div class="climate-overview"><div class="climate-overview-text"><p class="research-group-intro">Anthropogenic forcing perturbs the coupled atmosphere, ocean, land and carbon cycle across widely differing spatial and temporal scales. As external forcing strengthens or changes rapidly, its timescale can compete with the internal adjustment timescales of the Earth system. The resulting climate response may exhibit delayed feedbacks, evolving carbon-sink efficiencies, dynamical memory and dependence on the preceding forcing trajectory. Our research investigates these mechanisms, including hysteresis, overshoot and incomplete recovery, using concepts from non-equilibrium statistical physics, reduced-complexity modelling and comprehensive Earth-system simulations.</p><p class="research-group-intro research-group-intro-followup">At regional scales, global climate change produces spatially heterogeneous patterns of warming, extremes and associated impacts. We examine how these regional responses vary with warming pathways and with the resolution, downscaling and spatial aggregation of climate information, and how they can be represented in climate-impact assessment and emulation.</p></div><figure class="climate-signature-figure"><video aria-label="Ocean adjustment index animation from 1850 to 2025" controls="" height="1392" loop="" muted="" playsinline="" poster="pics/web/ocean-adjustment-poster.jpg" preload="metadata" width="1440"><source src="pics/web/ocean_adjustment_index_1850_2025.mp4" type="video/mp4"/>Your browser does not support HTML5 video. </video><figcaption>Ocean adjustment index across regions and depths, 1850–2025.</figcaption></figure></div><section class="topic research-topic"><div class="prose"><h3>Climate response, memory and irreversibility</h3><p>We investigate how climate response depends on the history of external forcing, not only its instantaneous magnitude. This work examines dynamical memory, delayed feedbacks, competing timescales and hysteresis, including the extent of recovery and potential residual changes following climate overshoot.</p><p>A key motivation is to determine when a state-based description is insufficient: two climate trajectories may share similar instantaneous forcing or warming yet differ in their fluxes and subsequent evolution. We study these differences through transient and overshoot experiments, focusing on the interplay of ocean adjustment, carbon-cycle feedbacks and forcing history.</p></div><figure class="research-figure"><a aria-label="Open research figure at full size" class="figure-expand" href="pics/web/climate-response-overshoot-loops.png" rel="noopener" target="_blank"><img alt="Hysteretic ocean carbon flux response plotted against CO2 concentration for SSP1-2.6 and SSP5-3.4-OS, with trajectories colored by year" decoding="async" height="1348" loading="lazy" src="pics/web/climate-response-overshoot-loops.png" width="2047"/></a><figcaption>Ocean carbon-flux response versus CO₂ concentration along SSP1-2.6 and SSP5-3.4-OS pathways, illustrating path dependence and different loop geometries.</figcaption></figure></section><section class="topic research-topic"><div class="prose"><h3>Reduced-complexity climate modelling</h3><p>We develop and apply reduced-complexity representations of climate and carbon-cycle dynamics, informed by comprehensive Earth-system simulations. A central goal is to identify effective equations that retain key feedbacks, memory effects and slow modes while making climate response tractable across forcing scenarios.</p><p>Reducing the dimensionality of the system is not simply a numerical shortcut. It offers a way to isolate physically meaningful response modes and test which aspects of complex dynamics must be retained for robust predictions under transient forcing and overshoot.</p></div><figure class="research-figure"><a aria-label="Open research figure at full size" class="figure-expand" href="pics/web/earth-system-coarse-graining.png" rel="noopener" target="_blank"><img alt="External forcing enters a comprehensive Earth-system model, whose dynamics are coarse-grained into reduced equations and predicted observables" decoding="async" loading="lazy" src="pics/web/earth-system-coarse-graining.png"/></a><figcaption>From high-dimensional Earth-system dynamics to effective equations and observable climate response.</figcaption></figure></section><section class="topic research-topic"><div class="prose"><h3>Regional climate change, extremes and impacts</h3><p>We analyse regional climate responses and the sensitivity of climate-impact indicators to spatial resolution, downscaling and aggregation. Within RIME-X, this includes assessing how higher-resolution climate information changes estimates of temperature extremes across European regions and warming pathways.</p><p>By comparing regional indicators across spatial scales, we investigate where coarse-graining changes estimated extremes and where high resolution adds information. This helps clarify how global climate signals are translated into decision-relevant regional quantities.</p></div><figure class="research-figure"><a aria-label="Open research figure at full size" class="figure-expand" href="pics/web/europe-extreme-temperature-resolution.png" rel="noopener" target="_blank"><img alt="Map of Europe showing changes in annual maximum daily maximum temperature (TXx) for 0.125-degree versus 0.5-degree spatial resolution at 3 degrees of global warming" decoding="async" loading="lazy" src="pics/web/europe-extreme-temperature-resolution.png"/></a><figcaption>Spatial-resolution differences in TXx (annual maximum daily maximum temperature), 0.125° minus 0.5°, at 3°C global warming.</figcaption></figure></section><h2 class="research-group-title research-group-break">Soft Matter &amp; Disordered Systems</h2><p class="research-group-intro">Our earlier work examines how microscopic structure, preparation history and interactions govern rheology, yielding, and phase behavior in soft and disordered materials.</p><section class="topic research-topic softmatter-topic">
+<div class="prose">
+<h3>Rheology of soft materials</h3>
+<p>Toothpaste, emulsions, colloidal suspensions and foams are all built from colloidal particles with different shapes, sizes and interactions. Under an imposed shear they show a striking transient response before settling into a homogeneously flowing steady state.</p>
+<p>The central questions are which microscopic processes start the flow, how inhomogeneous flow patterns form, and what drives shear-induced transitions. Because the flow behaviour depends on the properties of the colloids, these can be tuned to reach desired properties at the macroscopic scale. Our work explores this interplay between microstructure and rheology, which is key to designing soft hybrid materials. Current systems of interest are soft glassy materials, mixtures of liquid crystals and magnetic nanoparticles, and cluster crystals.</p>
 </div>
 
-<div class="header">
-      <h1> Rheology of soft materials </h1>
-</div>
-<div class="row">
-     <div class="col-1">
-       <p> My research broadly focuses on understanding the self-assembly, dynamics and rheology of a wide range of soft matter systems using computer simulations. The example of such materials include toothpaste, emulsions, colloidal suspensions, foam, etc. The microscopic constituents of these systems are colloidal particles with various shapes, sizes, and interparticle interactions. When an external shear is imposed, these systems show fascinating transient response and attain a homogeneouslyflowing steady-state. The central issues here are the identification of the microscopic processes responsible for the initiation of flow, characterization of inhomogeneous flow patterns, and the nature of shear-induced transitions. Moreover, the rheology of these systems strongly depends on the properties of contituent colloids, which can be tailored in order to achieve desired flow properties at the macroscopic level. My work aims to explore the interplay of microstructure and rheological properties which is crucial for soft-hybrid material design. The systems of current interest include soft glassy materials, mixtures of liquid crystals and magnetic nanoparticles, and cluster crystals. </p>
-   </div>
-   <div class="col-1">
-      <picture> 
-            <source media="(min-width:1%)" srcset="pics/project_fig.png">
-	    <img src="pics/project_fig.png" alt="Shearbands" style="width:80%;">
-       </picture>
- 
-   </div>
-   <hr>
-   <div class="col-1">
-	<h2> Amorphous solids  </h2>   
-        <p >Glassy materials, ranging from soft matter systems to metallic alloys, yield under external mechanical loading. Yielding transition in glasses has been an area of intense research in recent years, especially since the nature of this transition is highly debated. Furthermore, during yielding, these materials often respond via the formation of inhomogeneous flow patterns (shear bands), which are precursors to the catastrophic failure. The central issue in these systems is the origin of shear bands, which is intimately related to the question of how the flow is initiated in an amorphous solid under applied shear. Our simulations suggest that the yielding transition belongs to the universality class of directed percolation. At low shear rates, the percolating cluster, formed at the onset of flow, evolves into a transient shear band. We also demonstrate that transient shear bands are visible only under specific combinations of the age of glass sample, ambient temperature, and imposed shear rate, signifying the dependence of material properties of glasses on the history of preparation.</p>
-    </div>
-    <div class="col-2">
-        <video controls loop>
-           <source src="movies/output.mp4" type="video/mp4">
-           <source src="output.ogg" type="video/ogg">
-       </video>
-       <p></p>
-       <a target="_blank" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.94.042605"> PRE <b>94</b> (4), 042605 (2016).</a>
-     </div>
-     <div class="col-3">
-       <picture> 
-            <source media="(min-width:1%)" srcset="pics/drawing.png">
-	    <img src="pics/drawing.png" alt="Shearbands" style="width:61%;">
-       </picture>
-       <p></p>
-       <a target="_blank" href="https://sor.scitation.org/doi/abs/10.1122/1.4959967"> JOR <b>60</b> (5), 835 (2016).</a>   
-     </div>
+<figure class="research-figure"><a aria-label="Open research figure at full size" class="figure-expand" href="pics/web/softmatter-rheology.png" rel="noopener" target="_blank"><img alt="Scientific schematic of microstructures and shear-driven transformations in soft materials." decoding="async" loading="lazy" src="pics/web/softmatter-rheology.png"/></a><figcaption>Scientific schematic of microstructures and shear-driven transformations in soft materials.</figcaption></figure></section><section class="topic research-topic softmatter-topic">
+<div class="prose">
+<h3>Amorphous solids</h3>
+<p>Glassy materials, from soft matter to metallic alloys, yield under mechanical loading. The nature of this yielding transition is still debated. During yielding, glasses often form shear bands: inhomogeneous flow patterns that precede catastrophic failure. Their origin is closely tied to how flow begins in an amorphous solid.</p>
+<p>Our simulations suggest that yielding belongs to the directed percolation universality class. At low shear rates, the percolating cluster that forms at the onset of flow evolves into a transient shear band. These bands appear only for specific combinations of sample age, temperature and shear rate, showing how much the properties of a glass depend on how it was prepared.</p>
 
-    <hr>
-      <div class="col-1">
-       <h2> Mixtures of liquid crystals and magnetic nanoparticles </h2>
-       <p>Mixtures of magnetic nanoparticles (MNP) and liquid crystals (LC) are fascinating soft hybrid materials in terms of advancing new functionalities. While the equilibrium self-assembly of these systems is well explored, this is not yet the case for dynamical and rheological properties. In these mixtures, the LC matrix provides a dense anisotropic environment that strongly influences the translational dynamics of the magnetic colloids. Also, it is crucial to investigate the role of the structure-forming tendency of magnetic nanoparticles in determining the rheology of these mixtures.  Our study shows that a dense anisotropic environment of the host LC matrix strongly influences the translational dynamics of the MNPs while its own dynamics remain mainly unaffected. Furthermore, the rheology of the mixture is profoundly affected by the structure forming tendency of magnetic nanoparticles. </p>
-      </div>
-     <div class="col-1">
-       <picture> 
-            <source media="(min-width:1%)" srcset="pics/ga.png">
-	    <img src="pics/ga.png" alt="Shearbands" style="width:80%;">
-       </picture>
-       <p></p>
-         <a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2019/sm/c8sm02090f"> Soft Matter <b>15</b> (5), 973 (2019).</a>&nbsp;&nbsp;&nbsp;  
-	 <a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2020/sm/c9sm02080b"> Soft Matter <b>16</b> (10), 2516 (2020).</a>  
-     </div>
-
-   <hr>
-   <div class="col-1">
-     <h2>Yielding of cluster crystals</h2>
-	   <p> Point defects in real crystals at finite temperatures are inevitable. Their dynamics severely influence the mechanical properties of crystals under shear giving rise to various nonlinear effects such as ductility. Therefore, it is crucial to explore the interplay of the defect-diffusion timescales in equilibrium and shear-induced timescales to develop an understanding of the plastic deformation of crystals. These effects, however, are less understood so far due to the lack of an appropriate model system. In this context, we consider cluster crystals (CC), an archetypal model for defect-rich crystals, where the crystalline structure is characterized by multiple occupancies (cluster) of particles at a lattice site. We explore the mechanical response of CC by deforming it with a wide range shear rates covering the timescales higher and much lower than the equilibrium diffusion timescales of particles at high temperatures. We find that, the macro and microscopic responses of CCs to the shear indicate that the yielding scenario remains independent of the diffusion of particles, and it involves the plastic deformation of the underlying crystalline structure.</p>
-   </div>
-   <div class="col-1">
-       <picture> 
-            <source media="(min-width:1%)" srcset="pics/web_pic.png">
-	    <img src="pics/web_pic.png" alt="Shearbands" style="width:80%;">
-       </picture>
-     
-   </div>
 </div>
+
+<figure class="research-figure"><video aria-label="Animated simulation of shear banding in amorphous solids" controls="" loop="" muted="" playsinline="" poster="pics/web/softmatter-amorphous-poster.jpg" preload="metadata"><source src="pics/web/softmatter-amorphous-solids.mp4" type="video/mp4"/></video><figcaption>Animation of shear-band dynamics and stress response in an amorphous solid.</figcaption></figure></section><section class="topic research-topic softmatter-topic">
+<div class="prose">
+<h3>Mixtures of liquid crystals and magnetic nanoparticles</h3>
+<p>Mixtures of magnetic nanoparticles and liquid crystals are soft hybrid materials with promising new functions. Their equilibrium self-assembly is well explored, but their dynamics and rheology are not.</p>
+<p>Our work shows that the dense, anisotropic liquid-crystal matrix strongly affects how the magnetic particles move, while the matrix's own dynamics stay largely unchanged. The tendency of the magnetic particles to form structures also has a profound effect on how the mixture flows.</p>
+
+</div>
+
+<figure class="research-figure"><a aria-label="Open research figure at full size" class="figure-expand" href="pics/web/softmatter-mixtures.png" rel="noopener" target="_blank"><img alt="Simulation snapshots and rheological response of mixtures of liquid crystals and magnetic nanoparticles." decoding="async" loading="lazy" src="pics/web/softmatter-mixtures.png"/></a><figcaption>Simulation snapshots and rheological response of mixtures of liquid crystals and magnetic nanoparticles.</figcaption></figure></section><section class="topic research-topic softmatter-topic">
+<div class="prose">
+<h3>Yielding of cluster crystals</h3>
+<p>Real crystals at finite temperature always contain point defects, and their dynamics shape how crystals respond to shear, producing nonlinear effects such as ductility. Understanding plastic deformation means comparing the time scales of defect diffusion at rest with those set by the shear, but a suitable model system has been missing.</p>
+<p>We use cluster crystals, an archetypal model of defect-rich crystals in which several particles occupy each lattice site. Shearing them over a wide range of rates, both faster and much slower than equilibrium diffusion, we find that yielding does not depend on particle diffusion and proceeds through plastic deformation of the underlying crystal structure.</p>
+
+</div>
+
+<figure class="research-figure"><a aria-label="Open research figure at full size" class="figure-expand" href="pics/web/softmatter-cluster-crystals.png" rel="noopener" target="_blank"><img alt="Stress response, structural-order measurements and particle configurations during yielding of cluster crystals." decoding="async" loading="lazy" src="pics/web/softmatter-cluster-crystals.png"/></a><figcaption>Stress response, structural-order measurements and particle configurations during yielding of cluster crystals.</figcaption></figure></section></div>
+</main>
+<footer class="site-footer">
+<div class="wrap small">Gaurav Prakash Shrivastav, IIASA, Laxenburg, Austria</div>
+</footer>
 </body>
 </html>
